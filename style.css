@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: #82ccdd;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block {
+    display: flex;
+}
+
+.form-inscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form_seconnecter {
+    display: flex;
+    flex-direction: column;
+}
+.seconnecter {
+    border-right: 2px solid red;
+    padding: 30px;
+}
+.sinscrire {
+    padding: 30px;
+}
+.decoration-input {
+    width: 250px;
+    height: 40px;
+    background-color: #78e08f;
+    border: none;
+    border-bottom: 1px solid red;
+    margin-bottom: 34px;
+    outline: none;
+}
+.buton-style {
+    border: none;
+    width: 250px;
+    height: 40px;
+    background-color: #079992;
+    color: red;
+    border: 1px solid gray;
+    box-shadow: 1px 2px 2px black;
+    border-radius: 3px;
+
+}
+.mb-2 {
+    margin-bottom: 20px;
+}
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox-style {
+    width: 30px;
+    height: 30px;  
+}
+p,label{
+    font-family: 'Akaya Telivigala', cursive;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.pl-1 {
+    padding-left: 10px;
+}
